@@ -7,10 +7,68 @@
     <title>Tea House</title>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- manrope-fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <!-- font-awesome -->
+    <script src="https://kit.fontawesome.com/032a59644c.js" crossorigin="anonymous"></script>
 </head>
 
-<body>
-    <header></header>
+<style>
+    .font-manrope {
+        font-family: "Montserrat", sans-serif;
+    }
+
+    .text-color-primary {
+        color: #777777;
+    }
+
+    .text-color-secondary {
+        color: #1C1C1C;
+    }
+</style>
+
+<body class="font-manrope">
+    <header class="container mx-auto">
+        <section>
+            <div>
+                <div class="flex  flex-col lg:flex-row">
+                    <div class="flex-1">
+                        <h1 class="text-7xl font-extrabold text-color-secondary">It's good
+                            <br>
+                            tea time at The
+                            <br>
+                            Tea House
+                        </h1>
+                        <p class="py-6 text-lg text-color-primary">Provident cupiditate voluptatem et in. Quaerat fugiat
+                            ut assumenda excepturi
+                            exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                        <button class="btn bg-gradient-to-r from-[#FF8938] to-[#FF0000] text-white">Explore More
+                            <i class="fa-solid fa-arrow-trend-up"></i>
+                        </button>
+
+                    </div>
+                    <div class="flex-1  ">
+                        <img src="images/banner.png" class="max-w-sm rounded-lg mx-auto " />
+                        <div class="flex items-center bg-white border-2 border-gray-400 rounded-lg p-2">
+                            <i class="fa-solid fa-star fa-2xl text-amber-400 py-2 me-2"></i>
+                            <div class="ms-2">
+                                <h4 class="text-3xl font-extrabold text-color-secondary">5.00</h4>
+                                <p class="py-2 text-semibold text-color-primary">Trust Pilot Ratings</p>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+    </header>
 </body>
 
 </html>
